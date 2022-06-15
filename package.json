@@ -8,12 +8,30 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@types/atob": "^2.1.2",
+    "@types/es6-promise": "^3.3.0",
+    "@types/isomorphic-fetch": "^0.0.35",
+    "@types/react-modal": "^3.13.1",
+    "@zeit/next-css": "^1.0.1",
+    "atob": "^2.1.2",
+    "bootstrap": "^4.0.0",
+    "dayjs": "^1.10.8",
+    "isomorphic-fetch": "^3.0.0",
+    "js-cookie": "^3.0.1",
     "next": "12.0.10",
+    "next-images": "^1.8.4",
+    "nprogress": "^0.2.0",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "react-hooks-global-state": "^1.0.2",
+    "react-masonry-component": "^6.3.0",
+    "sass": "^1.49.7"
   },
   "devDependencies": {
+    "@types/cookie": "^0.4.1",
+    "@types/js-cookie": "^3.0.1",
     "@types/node": "17.0.18",
+    "@types/nprogress": "^0.2.0",
     "@types/react": "17.0.39",
     "eslint": "8.9.0",
     "eslint-config-next": "12.0.10",
