@@ -53,7 +53,7 @@ const PostDetail: PostDetailProps = ({ userPosts, postDetail, postCategories }) 
 
 export const getServerSideProps: GetServerSideProps<PostDetailDataProps> = async (context) => {
 
-    const ctx = context as NextPageContext;
+    const ctx = context as unknown as NextPageContext;
     const [token, userToken] = getTokenSSRandCSS(ctx)
     const userid = userToken?.id
     const postId = ctx.query?.postId
